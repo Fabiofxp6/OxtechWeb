@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Lógica</title>
+    <!-- Tailwind CDN necessário para o exercício 7 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-8 bg-gray-100 font-sans text-gray-800">
+    <div class="max-w-xl mx-auto bg-white p-6 rounded shadow space-y-6">
+        <h1 class="text-xl font-bold border-b pb-2">Exercícios de Lógica (Arrays e Loops)</h1>
+        
+        <!-- Exercício 4 -->
+        <div>
+            <h2 class="text-base font-bold">4. Lista Automática</h2>
+            <ul id="lista-linguagens" class="list-disc pl-6 mt-2"></ul>
+        </div>
+
+        <hr>
+
+        <!-- Exercício 5 -->
+        <div>
+            <h2 class="text-base font-bold">5. Carrinho de Compras</h2>
+            <p id="total-carrinho" class="mt-2 font-semibold"></p>
+        </div>
+
+        <hr>
+
+        <!-- Exercício 6 -->
+        <div>
+            <h2 class="text-base font-bold">6. Filtro Anti-Bug</h2>
+            <div class="mt-2 flex gap-2">
+                <input type="text" id="input-palavra" placeholder="Digite uma palavra" class="border p-2 rounded text-sm w-full max-w-xs focus:outline-none focus:ring-1 focus:ring-slate-500">
+                <button id="btn-adicionar" class="bg-slate-800 text-white px-4 py-2 rounded text-sm hover:bg-slate-700">Adicionar</button>
+            </div>
+            <p class="mt-2 text-sm">Array atualizado: <span id="lista-palavras" class="font-mono bg-gray-50 px-2 py-1 rounded">[]</span></p>
+        </div>
+
+        <hr>
+
+        <!-- Exercício 7 -->
+        <div>
+            <h2 class="text-base font-bold mb-3">7. Gerador de Cards Monocromáticos</h2>
+            <div id="container-cards" class="grid grid-cols-1 sm:grid-cols-3 gap-3"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
